@@ -1,6 +1,6 @@
 cask "teya-code-station" do
-  version "1.3.1"
-  sha256 "9e0a225d79bdea07dad7d12177e9ec3b0dd60c76b35f95d3b2b93661ba181625"
+  version "1.3.2"
+  sha256 "319cd3ee2b3b6028e27be63e0987dca9959b4edc693e454030ce1e592916e94a"
 
   url "https://github.com/teya-engineering/code-station/releases/download/v#{version}/TeyaCodeStation-#{version}.dmg"
   name "Teya Code Station"
@@ -13,7 +13,7 @@ cask "teya-code-station" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
 
   app "Teya Code Station.app"
 
