@@ -1,6 +1,6 @@
 cask "teya-code-station" do
-  version "1.10.1"
-  sha256 "d1bc035d4237dfac06d7d0592c92388462b0520d3d8500b99349c8a5fa2ddb70"
+  version "1.11.0"
+  sha256 "79c5e0bc225b5bdd15b406ad420474de2c4f3543032fb431e5e18020edcc93d1"
 
   url "https://github.com/teya-engineering/code-station/releases/download/v#{version}/TeyaCodeStation-#{version}.dmg"
   name "Teya Code Station"
